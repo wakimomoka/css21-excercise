@@ -1,0 +1,49 @@
+.class_all{
+  background: #f5f4f4;
+  height: 500px;
+  position: relative;
+  margin:0px 30px ;
+}
+
+.ttl{
+  color: darkblue;
+}
+
+.parent_one{
+  color: darkblue;
+  display: flex;
+  justify-content: flex-end;
+}
+.child_one{
+  width: 100px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.class_img img{
+  width: 100%;
+}
+.class_img {
+  position: absolute;
+  top: 10%;
+  right: 0%;
+  display: block;
+  width: 50%;
+  z-index: 10;
+}
+
+.class_content{
+  font-size: 40px;
+  text-align: left;
+  margin-top: 190px;
+  
+}
+.class_bottom_color{
+  position: absolute;
+  background-color: blue;
+  top: 300px;
+  width: 600px;
+  height: 200px;
+  display: block;
+  z-index: 0;
+}
